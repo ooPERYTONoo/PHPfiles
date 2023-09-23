@@ -1,0 +1,238 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    align-items: center;
+}
+
+body {
+    overflow-y: visible;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+form {
+    border: 0.7px solid #d5d6d6;
+    padding: 12px 40px;
+    border-radius: 2px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 42px;
+    margin-bottom: 3px;
+    margin-top: 34px;
+    background-image: url(./instagram.png);
+    width: 176px;
+    height: 86px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 176px 186px;
+    display: inline-block;
+}
+
+.input_container {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    padding: 9px 0px 9px 8px;
+    width: 260px;
+    border-radius: 3px;
+    background-color: #f4f4f48f;
+    border: 0.1px solid #c4c9cb;
+}
+
+::placeholder {
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    color: #9fa0a0;
+}
+
+input:focus {
+    border-color: #838b8e;
+    outline: none;
+}
+
+.Submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.Submit-btn button {
+    background-color: #59b2ff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    width: 270px;
+    padding: 9px 12px;
+    margin-top: 7px;
+    color: white;
+    font-size: 13px;
+}
+
+.divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px 0px 18px 0px;
+}
+
+.line {
+    width: 102px;
+    height: 0.6px;
+    background-color: #c4c9cb;
+}
+
+.text_or {
+    color: #838b8e;
+    padding: 0px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fb-log {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb {
+    margin-right: 8px;
+    background-image: url(./fb.png);
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+}
+
+.fb-log div a {
+    display: flex;
+    color: #1b1b47;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.fb-log p a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #112a52;
+}
+
+.nonAcc {
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.nonAcc span {
+    border: 1px solid #d5d6d6;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    font-size: 14px;
+    text-decoration: none;
+    height: 64px;
+    display: flex;
+}
+
+
+
+.nonAcc span a {
+    text-decoration: none;
+    color: #1781fa;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.app p {
+    font-size: 16px;
+    color: #1c1c1d;
+}
+
+.app-img img {
+    height: 40px;
+}
+
+.app-img a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.foot-container {
+    display: flex;
+    /* gap: 10px; */
+    flex: 0 0 auto;
+    justify-content: center;
+    font-size: 12px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.foot-container a {
+    text-decoration: none;
+}
+
+.foot-container a div:hover {
+    border-bottom: 1px solid #5b5c5d;
+}
+
+.more_item {
+    box-sizing: border-box;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    color: #838b8e;
+}
+
+.copy-lan {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 10px;
+    color: #878b8c;
+}
+
+#language {
+    color: #838b8e;
+    font-size: 12px;
+    margin-right: 12px;
+    border: 0px;
+    outline: none;
+}
+
+@media (max-width:450px) {
+
+    form,
+    .nonAcc span {
+        border: 0px;
+    }
+
+
+}
+
+@media (max-width:600px) {
+    #ms-str {
+        display: none;
+    }
+}
